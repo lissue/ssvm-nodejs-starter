@@ -8,7 +8,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   const queryObject = url.parse(req.url,true).query;
   if (!queryObject['name']) {
-    res.end(`Please use command curl http://${hostname}:${port}/?name=MyName \n`);
+    res.end(`Please use command curl http://${hostname}:${port}/?name=LogEntry \n`);
   } else {
     res.end(say(queryObject['name']) + '\n');
   }
