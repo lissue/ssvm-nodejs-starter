@@ -1,3 +1,14 @@
+[Learning SSVM to get a FREE Raspberry Pi kit!](https://www.secondstate.io/articles/raspberry-pi-for-free-20200709/)
+
+I have no previous experience in Rust at all, but [the tutorial](https://www.secondstate.io/articles/getting-started-with-rust-function/) that Second State provided was super easy to follow. 
+
+This implementation is slight modification using [`url`](https://crates.io/crates/url) to parse a log entry like ftp://jdoe@example.com and extract the user name:
+
+```bash
+$ curl http://localhost:3000/?name=ftp://jdoe@example.com
+User name: jdoe
+```
+
 # Getting started
 
 ![Build and test](https://github.com/second-state/ssvm-nodejs-starter/workflows/Build%20and%20test/badge.svg)
